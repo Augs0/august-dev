@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+/* Colour scheme */
+:root{
+  --customblack:#0E131F;
+  --customwhite:#FFFFFC;
+  --customorange:#FF9B71;
+  --customgreen:#1B998B;
+  --customred:#E84855;
+  --custompurple:#805D93;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+*{
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html, body{
+  padding:0;
+  margin:0;
+  background-color:var(--customwhite);
+  height:100vh;
+  font-size:1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+h1, h2, h3, h4, h5 ,h6{
+  font-family:'Montserrat', sans-serif;
+}
+
+p, a, span, li, button{
+  font-family:'Lato', sans-serif;
+}
+
+ul{
+  list-style-type: none;;
+}
+
+li{
+  padding:5px;
+}
+
+a{
+  color:var(--customblack);
+}
+
+a:visited{
+  color:var(--custompurple)''
+}
+
+/* Header */
+.page-selector, footer{
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+  padding:20px;
+}
+
+.page-selector{
+  height:auto;
+  background:var(--customblack);
+  color:var(--customwhite);
+}
+
+.page-selector button{
+  margin:20px;
+  padding:20px;
+  font-size:20px;
+}
+
+.page-selector button:hover{
+  cursor:pointer;
+}
+
+/* Main */
+.tech, .other{
+  padding:20px;
+  display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper{
+  display:flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.experience-wrapper{
+  display:flex;
+  flex-direction:column;
+  max-width:800px;
+  padding:20px;
+}
+
+.green-underline{
+  border-bottom:8px solid var(--customgreen);
+}
+
+.orange-underline{
+  border-bottom:8px solid var(--customorange);
+}
+
+.red-underline{
+  border-bottom:8px solid var(--customred);
+}
+
+.purple-underline{
+  border-bottom:5px dashed var(--custompurple);
+}
+
+.black-underline{
+  border-bottom: 5px double var(--custompurple);
+}
+
+/* Footer */
+footer{
+  background:var(--customred);
+  color:var(--customblack);
+  position:absolute;
+  bottom:-50%;
+  left:0;
+  right:0;
+  font-size:1.5rem;
+  height:150px;
+}
+
+footer a{
+  color:var(--customblack);
+}
+
+footer a:visited{
+  color:var(--customwhite);
 }
