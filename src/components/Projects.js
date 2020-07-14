@@ -12,7 +12,9 @@ function Projects() {
                 <li>Team wiki in React.js/Gatsby.js</li>
             </ul>
             <h3 className="green-underline">Personal projects</h3>
+            <p>Here's a small selection, but <a href="https://github.com/Augs0">you can explore more on my Github.</a></p>
             <ul>
+                <li><a href="https://codepen.io/augs0/pen/pKzKwQ">Javascript travel map</a> This was one of my first ever projects before even becoming a developer!</li>
                 <li><a href="https://codepen.io/augs0/pen/mdJeWOe">Interactive mood calendar</a></li>
                 <li><a href="https://codepen.io/augs0/pen/QWbGwJw">Classy tribute page</a></li>
                 <li><a href="https://codepen.io/augs0/pen/NQWamE">CSS testimonials</a></li>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './components/Header'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Emoji from './components/Emoji'
@@ -37,22 +37,22 @@ export default class App extends Component {
             {this.state.projects === true ? <Projects /> : false}
           </div>
           <div className="wrapper">
-            <div role="presentation none" className="tech">
+            <div role="article" className="tech">
               <h2>Technical Skills</h2>
               <ul>
-                <p className="green-underline">Confident using...</p>
+                <li className="subtitle green-underline">Confident using...</li>
                 <li>HTML</li>
                 <li>CSS (+ Bootstrap, Flexbox, Grid, SASS)</li>
                 <li>Javascript</li>
-                <p className="orange-underline">Feel quite comfortable with...</p>
+                <li className="subtitle orange-underline">Feel quite comfortable with...</li>
                 <li>React.js (+ Gatsby.js)</li>
                 <li>Node.js</li>
-                <p className="red-underline">Just starting out with...</p>
+                <li className="subtitle red-underline">Just starting out with...</li>
                 <li>PHP</li>
                 <li>Python</li>
               </ul>
             </div>
-            <div role="presentation none" className="other">
+            <div role="article" className="other">
               <h2>Other skills</h2>
               <h3 className="purple-underline">Foreign languages (ordered by fluency)</h3>
               <ul>
@@ -60,7 +60,7 @@ export default class App extends Component {
                 <li>German</li>
                 <li>Spanish</li>
                 <li>Korean</li>
-                <h4 className="purple-underline">Languages in progress:</h4>
+                <li className="subtitle purple-underline">Languages in progress:</li>
                 <ul>
                   <li>French</li>
                   <li>Hindi</li>
@@ -76,6 +76,7 @@ export default class App extends Component {
               </ul>
             </div>
           </div>
+          <Footer />
         </main>
       </div>
     )

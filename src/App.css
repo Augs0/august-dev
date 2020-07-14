@@ -35,7 +35,7 @@ ul{
 }
 
 li{
-  padding:5px;
+  padding:10px;
 }
 
 a{
@@ -64,6 +64,12 @@ a:visited{
   margin:20px;
   padding:20px;
   font-size:20px;
+  background-color:var(--customwhite);
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
 }
 
 .page-selector button:hover{
@@ -71,6 +77,7 @@ a:visited{
 }
 
 /* Main */
+
 .tech, .other{
   padding:20px;
   display:flex;
@@ -87,6 +94,10 @@ a:visited{
   flex-direction:column;
   max-width:800px;
   padding:20px;
+}
+
+.subtitle{
+  margin-left:-10px;
 }
 
 .green-underline{
@@ -106,25 +117,23 @@ a:visited{
 }
 
 .black-underline{
-  border-bottom: 5px double var(--custompurple);
+  border-bottom: 5px double var(--customblack);
 }
 
 /* Footer */
 footer{
   background:var(--customred);
-  color:var(--customblack);
-  position:absolute;
-  bottom:-50%;
-  left:0;
-  right:0;
+  color:var(--customwhite);
+  flex-wrap:wrap;
   font-size:1.5rem;
-  height:150px;
+  font-weight:500;
 }
 
 footer a{
-  color:var(--customblack);
+  color:var(--customwhite);
 }
 
 footer a:visited{
-  color:var(--customwhite);
+  color:var(--customblack);
 }
+
