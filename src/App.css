@@ -49,6 +49,7 @@ a:visited{
 /* Header */
 .page-selector, footer{
   display:flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
   width:100%;
   padding:20px;
@@ -112,8 +113,12 @@ a:visited{
   border-bottom:8px solid var(--customred);
 }
 
-.purple-underline{
+.purple-underline-dash{
   border-bottom:5px dashed var(--custompurple);
+}
+
+.purple-underline{
+  border-bottom:5px solid var(--custompurple);
 }
 
 .black-underline{
@@ -124,16 +129,14 @@ a:visited{
 footer{
   background:var(--customred);
   color:var(--customwhite);
-  flex-wrap:wrap;
-  font-size:1.5rem;
+  font-size:1.9em;
   font-weight:500;
 }
 
-footer a{
-  color:var(--customwhite);
+/* Media queries */
+@media screen and (max-width:640px){
+  .wrapper{
+    flex-direction:column;
+    justify-content: center;
+  }
 }
-
-footer a:visited{
-  color:var(--customblack);
-}
-

@@ -50,24 +50,29 @@ export default class App extends Component {
                 <li className="subtitle red-underline">Just starting out with...</li>
                 <li>PHP</li>
                 <li>Python</li>
+                <li className="subtitle purple-underline">Version control, project management, etc.</li>
+                <li>Git (with Github and Bitbucket)</li>
+                <li>Trello</li>
+                <li>Jira</li>
+                <li>Slack</li>
               </ul>
             </div>
             <div role="article" className="other">
               <h2>Other skills</h2>
-              <h3 className="purple-underline">Foreign languages (ordered by fluency)</h3>
+              <h3 className="purple-underline-dash">Foreign languages (ordered by fluency)</h3>
               <ul>
                 <li>Japanese</li>
                 <li>German</li>
                 <li>Spanish</li>
                 <li>Korean</li>
-                <li className="subtitle purple-underline">Languages in progress:</li>
+                <li className="subtitle black-underline">Languages in progress:</li>
                 <ul>
                   <li>French</li>
                   <li>Hindi</li>
                   <li>Arabic (Egyptian)</li>
                 </ul>
               </ul>
-              <h3>Miscellaneous</h3>
+              <h3 className="subtitle purple-underline-dash">Miscellaneous</h3>
               <ul>
                 <li>Research skills</li>
                 <li>Blogging</li>

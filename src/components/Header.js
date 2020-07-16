@@ -31,8 +31,8 @@ class Header extends Component {
                         <Emoji symbol="👩‍💻" label="coding" />
                     </h1>
                     <nav>
-                        <button type="button" onClick={() => this.toggleExperience()}>{this.state.experience === true ? "Hide experience" : "View experience"}</button>
-                        <button type="button" onClick={() => this.toggleProjects()}>{this.state.projects === true ? "Hide projects" : "View projects"}</button>
+                        <button type="button" aria-label={this.state.experience === true ? "My work experience is currently on the page. Click this button to hide it" : "My eork experience is not currently on the page. Click this button to make it visible"} onClick={() => this.toggleExperience()}>{this.state.experience === true ? "Hide experience" : "View experience"}</button>
+                        <button type="button" aria-label={this.state.projects === true ? "My projects are currently on the page. Click this button to hide them" : "My projects are not currently on the page. Click this button to make them visible"} onClick={() => this.toggleProjects()}>{this.state.projects === true ? "Hide projects" : "View projects"}</button>
                     </nav>
                 </header>
             </>
