@@ -16,6 +16,7 @@ function Projects() {
             <ul>
                 <li><a href="https://codepen.io/augs0/pen/pKzKwQ">Javascript travel map</a> This was one of my first ever projects before even becoming a developer!</li>
                 <li><a href="https://codepen.io/augs0/pen/mdJeWOe">Interactive mood calendar</a></li>
+                <li><a href="https://codepen.io/augs0/pen/zYrJeGj?editors=0010">Language badge maker</a></li>
                 <li><a href="https://codepen.io/augs0/pen/QWbGwJw">Classy tribute page</a></li>
                 <li><a href="https://codepen.io/augs0/pen/NQWamE">CSS testimonials</a></li>
                 <li><a href="https://codepen.io/augs0/pen/mdJZXaK">Bootstrap and API Ghibli films list</a></li>
