@@ -37,7 +37,7 @@ export default class App extends Component {
             {this.state.projects === true ? <Projects /> : false}
           </div>
           <div className="wrapper">
-            <div role="article" className="tech">
+            <article className="tech">
               <h2>Technical Skills</h2>
               <ul>
                 <li className="subtitle green-underline">Confident using...</li>
@@ -49,37 +49,31 @@ export default class App extends Component {
                 <li>Node.js</li>
                 <li className="subtitle red-underline">Just starting out with...</li>
                 <li>PHP</li>
+                <li>MySQL</li>
                 <li>Python</li>
-                <li className="subtitle purple-underline">Version control, project management, etc.</li>
+                <li className="subtitle purple-underline">Version control and project management tools I use</li>
                 <li>Git (with Github and Bitbucket)</li>
                 <li>Trello</li>
                 <li>Jira</li>
                 <li>Slack</li>
+                <li>MetroRetro</li>
+                <li>Gulp 4</li>
               </ul>
-            </div>
-            <div role="article" className="other">
+            </article>
+            <article className="other">
               <h2>Other skills</h2>
-              <h3 className="purple-underline-dash">Foreign languages (ordered by fluency)</h3>
+              <p>I'm a bit of a language addict, so I'm able to speak a number of languages, with others in progress.</p>
+              <p><Emoji symbol="🌍" label="" /> I'm fairly confident speaking Japanese, German, Spanish and Korean.</p>
+              <p><Emoji symbol="⏳" label="" />I'm still working on French, Egyptian Arabic and Hindi.</p>
+              <p>Additionally, I can demonstrate skills in the following areas:</p>
               <ul>
-                <li>Japanese</li>
-                <li>German</li>
-                <li>Spanish</li>
-                <li>Korean</li>
-                <li className="subtitle black-underline">Languages in progress:</li>
-                <ul>
-                  <li>French</li>
-                  <li>Hindi</li>
-                  <li>Arabic (Egyptian)</li>
-                </ul>
-              </ul>
-              <h3 className="subtitle purple-underline-dash">Miscellaneous</h3>
-              <ul>
-                <li>Research skills</li>
+                <li>Academic / general research</li>
                 <li>Blogging</li>
-                <li>Translation skills</li>
-                <li>Make pretty great brownies and jam tarts <Emoji symbol="🍰" label="" /></li>
+                <li>Cultural awareness and cross-cultural communication</li>
+                <li>Teaching</li>
+                <li>Translation and consecutive interpeting</li>
               </ul>
-            </div>
+            </article>
           </div>
           <Footer />
         </main>
