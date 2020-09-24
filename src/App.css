@@ -138,6 +138,8 @@ footer {
 .projects-ul {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0;
 }
 
 .project-pic {
@@ -160,6 +162,10 @@ footer {
   .wrapper {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .projects-ul {
+    max-width: 1000px;
   }
 
   .project-pic {

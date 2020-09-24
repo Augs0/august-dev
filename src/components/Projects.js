@@ -6,7 +6,7 @@ import JsonConverter from '../assets/images/attemptretriever.png'
 
 function Projects() {
     return (
-        <div role="none presentation" className="experience-wrapper">
+        <section className="experience-wrapper">
             <h2 className="black-underline">Projects</h2>
             <h3 className="red-underline">Private projects</h3>
             <p>Unfortunately I cannot share the code for these projects, but I am happy to discuss my processes and the content in an appropriate setting.</p>
@@ -19,17 +19,17 @@ function Projects() {
             <h3 className="green-underline">Personal projects</h3>
             <p>Here's a small selection, but <a href="https://github.com/Augs0">you can explore more on my Github.</a></p>
             <ul>
-                <li><a href="https://codepen.io/augs0/pen/pKzKwQ">Travel map (HTML/CSS/JS)</a> This was one of my first ever projects before even becoming a developer!</li>
-                <li><a href="https://codepen.io/augs0/pen/mdJeWOe">Interactive mood calendar (HTML/CSS/JS)</a></li>
+                <li><a href="https://codepen.io/augs0/pen/pKzKwQ">Travel map (HTML,CSS,JS)</a> This was one of my first ever projects before even becoming a developer!</li>
+                <li><a href="https://cyf-course-checklist.netlify.app/">Revision checklist for CYF coding course (HTML,SASS,JS,Parcel.js)</a></li>
                 <li><a href="https://github.com/Augs0/mock-ngo">Mock NGO site [mobile-first] (HTML, CSS)</a></li>
                 <li><a href="https://astro-react.netlify.app/">Horoscope and compatability (React.js)</a></li>
-                <li><a href="https://github.com/Augs0/explore-tech">Simple site to help people explore jobs in tech (HTML, CSS, JS)</a></li>
+                <li><a href="https://explore-tech.netlify.app/">Simple site to help people explore jobs in tech (HTML, CSS, JS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/zYrJeGj?editors=0010">Language badge maker (HTML, CSS, JS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/QWbGwJw">Classy tribute page (HTML, CSS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/NQWamE">CSS testimonials (HTML, CSS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/mdJZXaK">Ghibli film list (HTML, Bootstrap, JS)</a></li>
             </ul>
-        </div>
+        </section>
     )
 }
 

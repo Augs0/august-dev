@@ -30,13 +30,13 @@ export default class App extends Component {
       <div className="App">
         <Header experience={() => this.toggleExperience()} projects={() => this.toggleProjects()} />
         <main>
-          <div className="wrapper">
+          <section className="wrapper">
             {this.state.experience === true ? <Experience /> : false}
-          </div>
-          <div className="wrapper">
+          </section>
+          <section className="wrapper">
             {this.state.projects === true ? <Projects /> : false}
-          </div>
-          <div className="wrapper">
+          </section>
+          <section className="wrapper">
             <article className="tech">
               <h2>Technical Skills</h2>
               <ul>
@@ -58,23 +58,24 @@ export default class App extends Component {
                 <li>Slack</li>
                 <li>MetroRetro</li>
                 <li>Gulp 4</li>
+                <li>Parcel.js</li>
               </ul>
             </article>
             <article className="other">
               <h2>Other skills</h2>
               <p>I'm a bit of a language addict, so I'm able to speak a number of languages, with others in progress.</p>
               <p><Emoji symbol="🌍" label="" /> I'm fairly confident speaking Japanese, German, Spanish and Korean.</p>
-              <p><Emoji symbol="⏳" label="" />I'm still working on French, Egyptian Arabic and Hindi.</p>
+              <p><Emoji symbol="⏳" label="" /> I'm still working on French, Egyptian Arabic and Hindi.</p>
               <p>Additionally, I can demonstrate skills in the following areas:</p>
               <ul>
-                <li>Academic / general research</li>
-                <li>Blogging</li>
+                <li>Academic / general research <a href="https://www.academia.edu/34659992/How_accessible_are_unsimplified_novels_for_advanced_learners_of_English">(See my published paper here~)</a></li>
+                <li>Blogging <a href="https://voyageendless.home.blog/">(I currently run a travel / international film blog)</a></li>
                 <li>Cultural awareness and cross-cultural communication</li>
                 <li>Teaching</li>
                 <li>Translation and consecutive interpeting</li>
               </ul>
             </article>
-          </div>
+          </section>
           <Footer />
         </main>
       </div>
