@@ -8,14 +8,6 @@ function Projects() {
     return (
         <section className="experience-wrapper">
             <h2 className="black-underline">Projects</h2>
-            <h3 className="red-underline">Private projects</h3>
-            <p>Unfortunately I cannot share the code for these projects, but I am happy to discuss my processes and the content in an appropriate setting.</p>
-            <ul className="projects-ul">
-                <li><span>Accessibility guide</span><img className="project-pic" src={AccessibilityGuide} alt="accessibility guide" /></li>
-                <li><span>Git guide</span><img className="project-pic" src={GitGuide} alt="guide on how to use git" /></li>
-                <li><span>Wiki in React</span><img className="project-pic" src={Wiki} alt="team wiki in React.js/Gatsby.js" /></li>
-                <li><span>JSON to HTML table converter</span><img className="project-pic" src={JsonConverter} alt="json to table converter" /></li>
-            </ul>
             <h3 className="green-underline">Personal projects</h3>
             <p>Here's a small selection, but <a href="https://github.com/Augs0">you can explore more on my Github.</a></p>
             <ul>
@@ -29,6 +21,14 @@ function Projects() {
                 <li><a href="https://codepen.io/augs0/pen/QWbGwJw">Classy tribute page (HTML, CSS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/NQWamE">CSS testimonials (HTML, CSS)</a></li>
                 <li><a href="https://codepen.io/augs0/pen/mdJZXaK">Ghibli film list (HTML, Bootstrap, JS)</a></li>
+            </ul>
+            <h3 className="red-underline">Private projects</h3>
+            <p>Unfortunately I cannot share the code for these projects, but I am happy to discuss my processes and the content in an appropriate setting.</p>
+            <ul className="projects-ul">
+                <li><span>Accessibility guide</span><img className="project-pic" src={AccessibilityGuide} alt="accessibility guide" /></li>
+                <li><span>Git guide</span><img className="project-pic" src={GitGuide} alt="guide on how to use git" /></li>
+                <li><span>Wiki in React</span><img className="project-pic" src={Wiki} alt="team wiki in React.js/Gatsby.js" /></li>
+                <li><span>JSON to HTML table converter</span><img className="project-pic" src={JsonConverter} alt="json to table converter" /></li>
             </ul>
         </section>
     )
