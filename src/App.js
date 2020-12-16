@@ -68,8 +68,8 @@ export default class App extends Component {
               <p><Emoji symbol="⏳" label="" /> I'm still working on French, Egyptian Arabic and Hindi.</p>
               <p>Additionally, I can demonstrate skills in the following areas:</p>
               <ul>
-                <li>Academic / general research <a href="https://www.academia.edu/34659992/How_accessible_are_unsimplified_novels_for_advanced_learners_of_English">(See my published paper here~)</a></li>
-                <li>Blogging <a href="https://voyageendless.home.blog/">(I currently run a travel / international film blog)</a></li>
+                <li>Academic / general research <a href="https://www.academia.edu/34659992/How_accessible_are_unsimplified_novels_for_advanced_learners_of_English"> (See my published paper here~)</a></li>
+                <li>Blogging <a href="https://voyageendless.home.blog/"> (I currently run a travel / international film blog)</a></li>
                 <li>Cultural awareness and cross-cultural communication</li>
                 <li>Teaching</li>
                 <li>Translation and consecutive interpeting</li>
