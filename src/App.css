@@ -70,6 +70,7 @@ footer {
   height: auto;
   background: var(--customblack);
   color: var(--customwhite);
+  font-size: 1rem;
 }
 
 .page-selector button {
@@ -151,6 +152,14 @@ footer {
   margin: 5px;
   padding: 20px;
   width: 100%;
+}
+
+.project-card a {
+  color: var(--customwhite);
+}
+
+.project-card a:visited {
+  color: var(--customorange);
 }
 
 .project-pic {
