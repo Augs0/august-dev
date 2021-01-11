@@ -41,16 +41,16 @@ export default class App extends Component {
               <h2>Technical Skills</h2>
               <ul>
                 <li className="subtitle green-underline">Confident using...</li>
-                <li>HTML</li>
-                <li>CSS (+ Bootstrap, Flexbox, Grid, SASS)</li>
+                <li>HTML5</li>
+                <li>CSS3(+ Bootstrap, Flexbox, Grid, SASS)</li>
                 <li>Javascript</li>
                 <li className="subtitle orange-underline">Feel quite comfortable with...</li>
                 <li>React.js (+ Gatsby.js)</li>
                 <li>Node.js</li>
                 <li className="subtitle red-underline">Just starting out with...</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>React Native</li>
+                <li>Nunjucks.js</li>
+                <li>Typescript</li>
+                <li>Gulp.js</li>
                 <li className="subtitle purple-underline">Version control and project management tools I use</li>
                 <li>Git (with Github and Bitbucket)</li>
                 <li>Trello</li>
@@ -65,7 +65,7 @@ export default class App extends Component {
               <h2>Other skills</h2>
               <p>I'm fascinated by other languages and I'm able to speak several, with others in progress.</p>
               <p><Emoji symbol="🌍" label="" /> I'm fairly confident speaking Japanese, German, and Spanish, with a conversational level in Korean.</p>
-              <p><Emoji symbol="⏳" label="" /> I'm still working on French, Egyptian Arabic and Hindi.</p>
+              <p><Emoji symbol="⏳" label="" /> I'm still working on French, Egyptian Arabic, Hindi and British Sign Language (BSL).</p>
               <p>Additionally, I can demonstrate skills in the following areas:</p>
               <ul>
                 <li>Academic / general research <a href="https://www.academia.edu/34659992/How_accessible_are_unsimplified_novels_for_advanced_learners_of_English"> (See my published paper here~)</a></li>
