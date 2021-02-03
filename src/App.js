@@ -48,6 +48,7 @@ export default class App extends Component {
                 <li>React.js (+ Gatsby.js)</li>
                 <li>Node.js</li>
                 <li className="subtitle red-underline">Just starting out with...</li>
+                <li>Unit testing (Jest, Chai)</li>
                 <li>Nunjucks.js</li>
                 <li>Typescript</li>
                 <li>Gulp.js</li>
