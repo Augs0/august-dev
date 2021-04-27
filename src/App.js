@@ -53,13 +53,12 @@ export default class App extends Component {
                 <li>Typescript</li>
                 <li>Gulp.js</li>
                 <li className="subtitle purple-underline">Version control and project management tools I use</li>
-                <li>Git (with Github and Bitbucket)</li>
+                <li>Git (with Github, Gitlab, and Bitbucket)</li>
                 <li>Trello</li>
                 <li>Jira</li>
                 <li>Slack</li>
                 <li>MetroRetro</li>
                 <li>Gulp 4</li>
-                <li>Parcel.js</li>
               </ul>
             </article>
             <article className="other">
